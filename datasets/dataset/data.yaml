@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['down', 'lookaround', 'phone', 'up']
+
+roboflow:
+  workspace: pranavs-workspace-8k4n7
+  project: cctv-accurate
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pranavs-workspace-8k4n7/cctv-accurate/dataset/1
